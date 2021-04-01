@@ -19,7 +19,7 @@ def TFIDF_predict_brand(DF,k_matches = 5, ngram_length = 3, chunk_size = 1000):
   pred_brands = []
   alter_pred = []
 
-  brands = DF.brands.unique()
+  brands = all_brands
   brands = set(brands)
   if None in brands:
     brands.remove(None)
