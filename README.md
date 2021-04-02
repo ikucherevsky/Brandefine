@@ -11,6 +11,7 @@
 DAWG_Python-0.7.2.dist-info, dawg_python находится библиотека pymorphy2 и необходимая для pymorphy2 DAWG. Pymorphy2 
 необходима для работы русской языковой модели spaCy.
 В файле TRAIN.pkl находится pickle - образ тренировочного списка в виде, необходимом для тренировки NER spaCy:
+
 [
 ('мел 3 шт белый artspace', {'entities': [(15, 23, 'BRAND')]}),
  ('ментос жеват скажи привет! 37 5г', {'entities': [(0, 6, 'BRAND')]}),
